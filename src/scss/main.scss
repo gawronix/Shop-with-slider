@@ -1,0 +1,12 @@
+@import "utilities/colors";
+@import "utilities/fonts";
+@import "parts/header";
+
+body {
+    font: 100% $font_0, $font_1;
+    color: $primary;
+}
+
+.primary {
+    color: $primary;
+}
