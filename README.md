@@ -8,27 +8,18 @@
 </tr>
 </table>
 
-
 ## Demo
-Here is a working live demo :  
-
+Here is a working live demo :  https://gawronix.github.io/Shop-with-slider/
 
 ## Site
-
+Mockups showing shop on the computer and mobile version.
 ### Landing Page
-
-
 ![](https://github.com/gawronix/Shop-with-slider/blob/master/mockups/shop.jpg)
 
 ## Mobile support
 The Shop-with-slider is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
 ![](https://github.com/gawronix/Shop-with-slider/blob/master/mockups/shop-mobile.jpg)
-
-
-
-
-## [Usage]() 
 
 ### Development
 Want to contribute? Great!
@@ -44,11 +35,9 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a Pull Request 
 
 ### Bug / Feature Request
-
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/gawronix/Shop-with-slider/issues/new) by including your search query and the expected result.
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/gawronix/Shop-with-slider/issues/new). Please include sample queries and their corresponding results.
-
 
 ## Built with 
 In Visual Studio Code
@@ -58,13 +47,10 @@ In Visual Studio Code
 
 ## To-do
 
-
 ## Team
-
 [![Grzegorz Gawroński](https://avatars1.githubusercontent.com/u/30899138?s=460&v=4)](https://github.com/gawronix)  | [![gawronski.dev](LH)](https://gawronski.dev/)
 ---|---
 
 ## [License](https://github.com/gawronix/Shop-with-slider/blob/master/LICENSE.md)
-
 MIT © [Grzegorz Gawroński ](https://github.com/gawronix)
 
