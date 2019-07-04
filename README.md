@@ -18,12 +18,12 @@ Here is a working live demo :
 ### Landing Page
 
 
-![]()
+![](https://github.com/gawronix/Shop-with-slider/blob/master/mockups/shop.jpg)
 
 ## Mobile support
 The Shop-with-slider is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![](mobile.jpg)
+![](https://github.com/gawronix/Shop-with-slider/blob/master/mockups/shop-mobile.jpg)
 
 
 
