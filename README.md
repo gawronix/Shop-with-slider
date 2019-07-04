@@ -51,8 +51,10 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 
 ## Built with 
-
-
+In Visual Studio Code
+  - HTML
+  - SCSS
+  - Gulp
 
 ## To-do
 
