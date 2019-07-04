@@ -1,4 +1,4 @@
-# ![Shop-with-slider](https://gawronix.github.io/Shop-with-slider/)
+# [Shop-with-slider](https://gawronix.github.io/Shop-with-slider/)
 <table>
 <tr>
 <td>
