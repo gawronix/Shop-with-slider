@@ -2,7 +2,7 @@
 @import "utilities/fonts";
 
 .header__background {
-    background-image: url("./dist/img/Body/Slider/slide.png");
+    background: $slider_background;
     height: auto;
     position: absolute;
     left: 0;
