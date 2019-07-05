@@ -12,7 +12,7 @@ function style() {
 }
 
 function watch() {
-    gulp.watch('src/scss/*.scss', style)
+    gulp.watch('src/scss/**/*.scss', style)
 }
 
 exports.watch = watch;

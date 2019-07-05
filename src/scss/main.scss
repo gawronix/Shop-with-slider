@@ -1,12 +1,29 @@
 @import "utilities/colors";
 @import "utilities/fonts";
+@import"utilities/burgerMenu";
+
 @import "parts/header";
+
 
 body {
     font: 100% $font_0, $font_1;
-    color: $primary;
+    background: $primary;
 }
 
-.primary {
-    color: $primary;
+.page--margins {
+    padding: 20px 80px 20px 80px;
+}
+
+// Show Burger Menu for mobile below 768px
+@media (min-width: 769px) {
+    .show__mobile {
+        display: none;
+    }
+}
+
+// Show Menu for Desktop above 768px
+@media (max-width: 768px) {
+    .show__desktop {
+        display: none;
+    }
 }

@@ -16,11 +16,62 @@
 </head>
 
 <body>
-
-    <div class="primary">
-        <h1>SHOP</h1>
+    <div class="header__background">
+        <div class="page--margins">
+            <!--  Menu showing above 768px -->
+            <div class="show__desktop">
+                <nav role="navigation">
+                    <div class="menu">
+                        <div class="header__logo">
+                            <img src="./dist/img/Header/shop-logo.png">
+                        </div>
+                        <div class="menu_items">
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#" class="active">SHOP</a></li>
+                                <li><a href="#">JOURNAL</a></li>
+                                <li><a href="#">ELEMENTS</a></li>
+                                <li><a href="#">PAGES</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__cart">
+                            <a href="#"><img src="./dist/img/Header/Cart.png"></a>
+                        </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Burger Menu showing below 768px -->
+        <div class="show__mobile">
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>About</li>
+                        </a>
+                        <a href="#">
+                            <li>Info</li>
+                        </a>
+                        <a href="#">
+                            <li>Contact</li>
+                        </a>
+                        <a href="https://erikterwan.com/" target="_blank">
+                            <li>Show me more</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="header__background">
+        </div>
     </div>
-
+    </div>
 </body>
 
 </html>

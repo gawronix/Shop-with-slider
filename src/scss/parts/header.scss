@@ -1,2 +1,63 @@
 @import "utilities/colors";
 @import "utilities/fonts";
+
+.header__background {
+    background-image: url("../../../dist/img/Body/Slider/slide.png");
+    height: auto;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header__logo {
+    order: 1;
+    flex: 1 0 0;
+    margin-top: 10px;
+}
+
+.header__cart {
+    order: 3;
+    flex: 0 0 1;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+// MENU
+.menu {
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    margin-top: 50px;
+
+    ul {
+        display: inline-flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    li a {
+        color: $grey;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: $font_0;
+        letter-spacing: 0.4em;
+    }
+
+    li a:hover:not(.active) {
+        color: $black;
+    }
+
+    .active {
+        color: $black;
+    }
+}
+
+.menu_items {
+    float: right;
+    order: 2;
+    flex: 0 1 0;
+}
