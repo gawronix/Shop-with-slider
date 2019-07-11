@@ -1,11 +1,14 @@
 gulp = require("gulp");
 var sass = require("gulp-sass");
+bourbon = require('node-bourbon');
 
 function style() {
     return (
         gulp
         .src("src/scss/*.scss")
-        .pipe(sass())
+        .pipe(sass({
+            includePaths: require('node-bourbon').includePaths
+        }))
         .on("error", sass.logError)
         .pipe(gulp.dest("dist/css/"))
     );
@@ -13,6 +16,7 @@ function style() {
 
 function watch() {
     gulp.watch('src/scss/**/*.scss', style)
+
 }
 
 exports.watch = watch;
