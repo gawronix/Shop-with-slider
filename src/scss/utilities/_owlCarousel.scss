@@ -49,28 +49,6 @@ article {
     }
 }
 
-.slider-dot-control {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-
-    label {
-        cursor: pointer;
-        border-radius: 5px;
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        background: #bbb;
-        @include transition(all 0.3s);
-
-        &:hover {
-            background: #ccc;
-            border-color: #777;
-        }
-    }
-}
-
 /* Info Box */
 .info {
     position: absolute;
@@ -82,7 +60,7 @@ article {
     @include transition(all 1000ms ease-out 600ms);
 
     h3 {
-        color: #fcfff4;
+        color: $grey;
         margin: 0 0 5px;
         font-weight: normal;
         font-size: 1.5em;
@@ -114,10 +92,6 @@ article {
 .slider-wrapper {
     width: 100%;
     overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 1px 1px 4px #666;
-    background: #fff;
-    background: #fcfff4;
     @include transform(translateZ(0));
     @include transition(all 500ms ease-out);
 
@@ -164,10 +138,6 @@ article {
     padding-left: 8px;
 }
 
-%bind-background-active-dot {
-    background: #333;
-}
-
 %bind-opacity-info {
     opacity: 1;
 }
@@ -176,10 +146,6 @@ article {
     #slide#{$i}:checked {
         &~.slider-wrapper .inner {
             margin-left: percentage(1 - $i);
-        }
-
-        &~.slider-dot-control label:nth-child(#{$i}) {
-            @extend %bind-background-active-dot;
         }
 
         &~.slider-wrapper article:nth-child(#{$i}) .info {
